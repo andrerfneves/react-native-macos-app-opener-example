@@ -1,0 +1,15 @@
+{
+  "name": "macOSAppOpenerExample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native-macos/local-cli/cli.js start",
+    "mac": "open macos/macOSAppOpenerExample.xcodeproj",
+    "dev": "npm run mac"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native-macos": "^0.12.0-rc.1",
+    "react-native-macos-app-opener": "^0.1.0"
+  }
+}
